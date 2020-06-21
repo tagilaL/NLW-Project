@@ -54,7 +54,14 @@ form fieldset{
 
 form legend{
     margin-bottom: 40px;
+    
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    /* peg toda a linha */
+    width: 100%;
 
 }
 
@@ -63,10 +70,9 @@ form legend h2{
 }
 
 form legend div {
-    font-size: 15px;
-    margin-left: 195px;
+    font-size: 14px;
 
-    color: #6c6c80;
+    color: var(--title-color);
 
 }
 
